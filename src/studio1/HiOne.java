@@ -14,10 +14,11 @@ public class HiOne {
 		String name = in.nextLine();
 		//
 		// Below this line, enter code so that this program's output says
-		//      Hi, Pat.  How are you?
+		//      Hi, Pat!  How are you?
 		// if the value of name is "Pat"
 		//
-
+		System.out.print("Hi " + name + "! How are you?");
+		
 	}
 
 }
